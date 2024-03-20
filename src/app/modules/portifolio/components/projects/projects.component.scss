@@ -35,7 +35,7 @@
                 border: 2px solid var(--primary);
                 border-radius: 7px;
                 transition: 500ms;
-                &.hover{
+                &:hover{
                     background: var(--primary);
                 }
             }
