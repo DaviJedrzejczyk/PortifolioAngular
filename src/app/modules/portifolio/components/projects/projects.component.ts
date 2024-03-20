@@ -52,5 +52,20 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/net.png',
+      alt: 'Projeto final do Entra 21',
+      title: 'Task Manager Validator',
+      with: '100px',
+      height: '100px',
+      description:
+        '<p>Este foi o projeto final do meu curso do Entra 21 - Blusoft, um curso profissionalizante da minha cidade. Nesse projeto tivemos a idea de criar um site em que o usuário poderia validar se sua classe em C# estive seguindo os padrões e convenções que a própria <b>Microsoft</b> sugere a serem seguidas. Nesse tempo do projeto conseguimos entender e colocar em prática como funciona versionamento com git, trabalho em equipe e a gestão das nossas tarefas. Usamos o C# .NET Core 6.0 como linguagem principal, para o front-end foi usado o Razor, para gerar as paginas apartir de classes .cs criadas no projeto MVC, e esse projeto chamava uma api criada com C#. Para o Banco de Dados usamos o Entity Framework e usamos o padrão Repository para manter a segurança e melhor performance na navegação dos nossos dados, para validação de todo o CRUD, usamos o FluentValidation, e para a validação da classe que era enviada pelo usuário, usamos tecnologias da microsoft como Reflection e CodeAnalysis, com isso nós conseguiamos fazer o C# compilar a classe enviada pelo usuário e validarmos cada método, propriedade, construtor e nome da classe. Na época usamos o Azure Cloud para colocarmos nosso site na Web</p>',
+      links: [
+        {
+          name: 'Conheça o projeto!',
+          href: 'https://github.com/machadobatistacosta/Task-Manager-Validator',
+        },
+      ],
+    },
   ]);
 }
