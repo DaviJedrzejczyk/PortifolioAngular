@@ -47,6 +47,9 @@
 
     nav{
         display: flex;
+        a{
+            background: var(--primary);
+        }
     }
 }
 
