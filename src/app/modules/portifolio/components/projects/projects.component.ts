@@ -67,5 +67,20 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/lista-de-tarefas.png',
+      alt: 'Projeto Lista de Tarefas ',
+      title: 'Lista de Tarefas',
+      with: '100px',
+      height: '100px',
+      description:
+        '<p>Este projeto foi mais um feito através do curso de Angular na Udemy na qual estou estudando. Aqui aprofundei mais o meu conhecimento de Angular, TypeScript, Html e CSS. Este projeto me trouxe um entendimento melhor de como funciona a conversação entre componentes pais e filhos, com input e output para CRUDS simples.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto!',
+          href: 'https://github.com/DaviJedrzejczyk/ListaTarefasAngular',
+        },
+      ],
+    },
   ]);
 }
