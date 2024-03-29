@@ -82,5 +82,20 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/logo.svg',
+      alt: 'Projeto Pokedex',
+      title: 'Pokedex',
+      with: '125px',
+      height: '125px',
+      description:
+        '<p>Este projeto foi feito com o intuito de mostrar como consumir uma Api com Angular, usei a Api Pokedex, comumente usada para fins didáticos.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto!',
+          href: 'https://github.com/DaviJedrzejczyk/PokedexAngular',
+        },
+      ],
+    },
   ]);
 }
