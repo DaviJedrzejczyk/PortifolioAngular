@@ -97,5 +97,35 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/angular.svg',
+      alt: 'Projeto Autenticador',
+      title: 'Autenticador',
+      with: '95px',
+      height: '95px',
+      description:
+        '<p>Este projeto foi feito com o intuito de mostrar como funciona a autenticação via JWT Token no Angular.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto!',
+          href: 'https://github.com/DaviJedrzejczyk/AutenticadorAngular',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/moon.png',
+      alt: 'Projeto Theme Dark',
+      title: 'Theme Dark',
+      with: '75px',
+      height: '75px',
+      description:
+        '<p>Este projeto aprendi como fazer pra mudar o tema do site.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto!',
+          href: 'https://github.com/DaviJedrzejczyk/ThemeAngular',
+        },
+      ],
+    },
   ]);
 }
