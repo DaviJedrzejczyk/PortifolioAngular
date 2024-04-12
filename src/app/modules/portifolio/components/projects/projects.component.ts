@@ -127,5 +127,20 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/listaFornecedor.png',
+      alt: 'Projeto Listagem de Fornecedores e Empresas',
+      title: 'Listagem de Fornecedores e Empresas',
+      with: '65px',
+      height: '65px',
+      description:
+        '<p>Este é o meu primeiro projeto após terminar o curso de angular, onde eu consumo uma api feita em .NET 8 pelo Angular v17, botando em prática meus conhecimentos atuais de .NET e os básicos do Angular v17.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto!',
+          href: 'https://github.com/DaviJedrzejczyk/ListagemFornecedoresRepositories',
+        },
+      ],
+    },
   ]);
 }
