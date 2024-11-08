@@ -14,7 +14,7 @@ Este portfólio foi criado com o objetivo de centralizar meus projetos, comparti
 
 - **Framework**: Angular
 - **Linguagem**: TypeScript
-- **Estilização**: CSS e Angular Material para componentes visuais
+- **Estilização**: SCSS e Angular Material para componentes visuais
 
 ## 🎨 Funcionalidades
 
