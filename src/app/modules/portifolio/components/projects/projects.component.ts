@@ -23,6 +23,21 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
+      src: 'assets/img/projects/logoDarkPlayer.png',
+      alt: 'Projeto de música Dark Player',
+      title: 'Dark Player',
+      with: '100px',
+      height: '100px',
+      description:
+        '<p>Um projeto de música feito para Android feito para fins educacionais, busco criar um app inspirado no Lark Player um aplicativo que uso para escutar músicas baixadas. Uso a tecnologia .NET Maui para criação desse app, mesmo com recursos limitados esse projeto seguirá sendo desenvolvido como meu projeto principal e sempre buscando melhorias conforme as atualizações da tecnologia MAUI e da comunidade. Aproveitem e podem mandar sugestões de melhorias criando Issues ou até mesmo pull requests.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto!',
+          href: 'https://github.com/DaviJedrzejczyk/DarkPlayer',
+        },
+      ],
+    },
+    {
       src: 'assets/img/projects/csharp3.png',
       alt: 'Projeto Controle de Estacionamento',
       title: 'Controle de Estacionamento',
